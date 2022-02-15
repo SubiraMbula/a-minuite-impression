@@ -4,7 +4,7 @@ Scribbles is an application that allows users to create  one minute pitches. The
 
 
 ## Author
-> Brian Kiiru Kimani
+> Subira Mbula
 
 
 ## Installations
