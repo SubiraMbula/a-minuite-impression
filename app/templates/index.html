@@ -1,16 +1,47 @@
-{% extends 'base.html'%} {% from 'pitch_display_macro.html' import display_pitches%} {% block content%} {% block styles %} {{super()}}
-<link rel="stylesheet" href="{{url_for('static',filename='css/particle.css')}}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> {% endblock %}
-<div class="bgimage">
-    <div class="p-3 p-md-5 m-md-3 text-center bg-transparent">
-        <div class="col-md-12 p-lg-5 mx-auto my-5">
-            <h2 class="display-4 font-weight-normal text-white">Scribble</h2>
-            <p class="lead font-weight-normal text-white">In just under a minute...</p>
-            <div id="buttons d-block mx-auto">
-                <a class="btn btn-outline-secondary text-white" href="/new_post">New Scribble</a>
-                <a class="btn btn-outline-secondary text-white" href="/posts">View Scribbles</a>
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+
+{% block styles%}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div style="text-align:center; font-size:30px;">
+            <span  style="font-size:200px; font-family: 'Monoton', cursive; text-align:center;" class="text-white">Pitches online</span>
+        </div>
+        <div> 
+        <div class="card jumbotron">
+            <div class="card-body card-warning"  style="text-align: center; ">
+    
+                <p><a href="{{url_for('main.motivation')}}" style="font-size:40px; text-align:center; color: black; font-family: 'Courgette', cursive;">
+                        <br>
+                        Motivation Pitches
+                    </a></p>
             </div>
         </div>
+            <br>
+            <div class="card jumbotron">
+                    <div class="card-body"  style="text-align: center">
+                        <p class="card-text">
+            <a href="{{url_for('main.promotion')}}" style="font-size:40px; color: black; font-family: 'Courgette', cursive;">
+                <br>
+                Promotion Pitches
+            </a></p>
+        </div>
+        </div>
+            <br>
+            <div class="card jumbotron">
+                    <div class="card-body" style="text-align: center">
+                        <p class="card-text">
+            <a href="{{url_for('main.product')}}" style="font-size:40px; color: black; font-family: 'Courgette', cursive;">
+                <br>
+                Product Pitches
+            </a></p>
+        </div>
     </div>
-</div>
-{% endblock %}
+    <br>
+    </div>
+    </div>
+    </div>
+    {% endblock %}
