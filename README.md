@@ -1,89 +1,45 @@
-
-# Scribbles
-Scribbles is an application that allows users to create  one minute pitches. The users will submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
+# Pitch
 
 
 ## Author
 > Subira Mbula
 
 
-## Installations
+This is an application that allows one to sign in and views other users pitches and also adds  pitch.
+one can also comment and upvote or downvote pitches 
 
-The following command installs all the application requirements
->``pip freeze -r requirements.txt``
+## BDD
 
-## Setup
-Run 
-``https://github.com/SubiraMbula/a-minuite-impression``
+| Behavior| input | output |
+| -------- | -------- | -------- |
+| Displays Home page   | click on sign up button on navbar and input your data | the app will save your data and create a new account for you |
+| you can view other comment or create your own | like and comment on other peoples pitches | post your comment |
+| Enter your profile and edit | add your bio and picture | publish your bio and pictures |
+|  |  | |
 
-or download the zip file from github.
+## Requirements
 
-After extracting the files, 
+You Require to install
 
-1. Navigate to the project folder
->`` cd name_of_folder`` 
-
-2. Creating a virtual environment
->``virtualenv virtual.``
-
-3. Activating the virtual environment
->``source virtual/bin/activate.``
-
-4. Running the application
->``python3 manage.py server``
-
-5. Running tests
-
- > ``python3 manage.py test.``
-
-## Technologies used
-* Python3
+* Python3.8
 * Flask
-* Javascript
-* Html5
-* Css3
-* Bootstrap4
+* Pip
+* Virtual environment
 
-## User Stories
-* As a user, I would like to see the pitches other people have posted.
-* As a user, I would like to vote on the pitch they liked and give it a downvote or upvote.
-* As a user, I would like to be signed in for me to leave a comment
-* As a user, I would like to receive a welcoming email once I sign up.
-* As a user, I would like to view the pitches I have created in my profile page.
-* As a user, I would like to comment on the different pitches and leave feedback.
-* As a user, I would like to submit a pitch in any category.
-* As a user, I would like to view the different categories. 
+## Getting started
 
-## BDD(Behaviour Driven Development)
->Login Inputs
+* Clone repository to your computer
+* Install python
+* Create virtual environment
 
-| Inputs |  Description |
-| :---         |          ---: |
-| Username  | Account username, ``eg johndoe``|
-| Password  | Account password, ``eg parseword``|
 
->Signup inputs
+### Contact Info:
 
-| Inputs |  Description |
-| :---         |          ---: |
-| Username  | Account username, ``eg johndoe``|
-| Email  | User email, ``eg morty@testmail.com``|
-| Password  | Account password, ``eg parseword``|
-| Confirm Password  | Account password, ``eg parseword``|
+subbysav123@gmail.com
 
-> Pitches inputs
+## License
 
-| Inputs | Description  |
-|---|---|
-|  Heading | Pitch description eg; ``pickup lines``  |
-|  Pitch text| The actual pitch body|
-| Comment| A comment on the pitch|
+this software license under MIT License
 
-## Fun Fact
-I broke a sweat
-
-## [License]
-> MIT License &copy; 2021 Subira Mbula 
-
-## Collaborate
-To collaborate, reach me on [subbysav123@gmail.com]()
+Copyright (c) 2020 Subira Mbula
+=======
