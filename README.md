@@ -1,10 +1,9 @@
 # Pitch
 
-## Author 
 
-* Clinton Oliera
+## Author
+> Subira Mbula
 
-## Description
 
 This is an application that allows one to sign in and views other users pitches and also adds  pitch.
 one can also comment and upvote or downvote pitches 
@@ -34,18 +33,13 @@ You Require to install
 * Create virtual environment
 
 
-## Technology Used
-
-* Python 3.6
-* Bootstrap 
-* Flask
-
 ### Contact Info:
 
-clintonoliera391@gmail.com
+subbysav123@gmail.com
 
 ## License
 
 this software license under MIT License
 
-Copyright (c) 2020 clinton oliera
+Copyright (c) 2020 Subira Mbula
+=======
