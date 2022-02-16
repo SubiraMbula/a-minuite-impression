@@ -5,6 +5,7 @@ Scribbles is an application that allows users to create  one minute pitches. The
 
 ## Author
 > Subira Mbula
+=======
 
 
 ## Installations
@@ -23,6 +24,7 @@ After extracting the files,
 1. Navigate to the project folder
 >`` cd name_of_folder`` 
 
+
 2. Creating a virtual environment
 >``virtualenv virtual.``
 
@@ -31,10 +33,16 @@ After extracting the files,
 
 4. Running the application
 >``python3 manage.py server``
+=======
+### Contact Info:
+
+subbysav123@gmail.com
+
 
 5. Running tests
 
  > ``python3 manage.py test.``
+
 
 ## Technologies used
 * Python3
@@ -87,3 +95,7 @@ I broke a sweat
 
 ## Contact
  reach me on [subbysav123@gmail.com]()
+=======
+Copyright (c) 2020 Subira Mbula
+=======
+
